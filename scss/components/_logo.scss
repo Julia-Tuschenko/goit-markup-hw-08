@@ -1,0 +1,23 @@
+.logo{
+    margin-right: 93px;
+    font-family: var(--secondary-font);
+    @include fond ($fw, 26px, 1.19);
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+    &--part{
+        color: var(--accent-color);
+    }
+    
+    &--footer{ 
+        color: var(--primary-bg-color);
+    }
+    
+    &--retreat{
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
