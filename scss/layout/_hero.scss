@@ -31,7 +31,7 @@
         margin-top: 30px;
         
         font-family: var(--main-font);
-        @include fond ($fw, 16px, 1.88);
+        @include fond (700, 16px, 1.88);
         align-items: center;
         letter-spacing: 0.06em;
         cursor:pointer;

@@ -42,7 +42,7 @@
         margin-left: 12px;
     
         font-family: var(--main-font);
-        @include fond ($fw, 16px, 1.87);
+        @include fond (700, 16px, 1.87);
         color: var(--primary-bg-color);
     
         display: flex;

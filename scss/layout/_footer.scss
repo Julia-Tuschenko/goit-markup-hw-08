@@ -8,10 +8,9 @@
     }
     
     
-    &-item{
+    &__item{
         font-style: normal;
         @include fond (400, 14px, 1.17);
-    
         letter-spacing: 0.03em;
     
         &:not(:last-child){

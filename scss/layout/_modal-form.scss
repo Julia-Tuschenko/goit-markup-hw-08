@@ -7,7 +7,7 @@
     margin-bottom: 12px;
 
     font-family: var(--main-font);
-    @include fond ($fw, 20px, 1.15);
+    @include fond (700, 20px, 1.15);
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -130,7 +130,7 @@
     width: 200px;
     
     font-family: var(--main-font);
-    @include fond ($fw, 16px, 1.88);
+    @include fond (700, 16px, 1.88);
     align-items: center;
     letter-spacing: 0.06em;
     cursor:pointer;
