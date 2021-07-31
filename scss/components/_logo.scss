@@ -16,19 +16,40 @@
     &--retreat{
         display: inline-block;
         margin-bottom: 20px;
-        margin-right: 0;
     }
 }
 
 @media screen and (min-width:768px){
-    .logo{
+    .logo--header{
         margin-right: 88px;
     }
 }
 
 @media screen and (min-width:1200px){
-    .logo{
+    .logo--header{
         margin-right: 93px;
     }
 }
 
+
+// .logo{
+//     font-family: var(--secondary-font);
+//     @include fond (700, 26px, 1.19);
+//     letter-spacing: 0.03em;
+
+//     color: #000000;
+
+//     &--part{
+//         color: var(--accent-color);
+//     }
+    
+//     &--footer{ 
+//         color: var(--primary-bg-color);
+//     }
+    
+//     &--retreat{
+//         display: inline-block;
+//         margin-bottom: 20px;
+//         margin-right: 0;
+//     }
+// }

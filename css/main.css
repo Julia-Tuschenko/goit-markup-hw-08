@@ -117,17 +117,16 @@ img {
 .logo--retreat {
   display: inline-block;
   margin-bottom: 20px;
-  margin-right: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .logo {
+  .logo--header {
     margin-right: 88px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .logo {
+  .logo--header {
     margin-right: 93px;
   }
 }
@@ -851,7 +850,7 @@ img {
 
 .join {
   width: 206px;
-  margin-right: 93px;
+  margin-bottom: 60px;
 }
 
 .join__title {
@@ -894,6 +893,25 @@ img {
   background-color: var(--accent-color);
 }
 
+@media screen and (min-width: 768px) {
+  .join {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .join {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .join {
+    margin-right: 93px;
+  }
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -901,8 +919,7 @@ img {
 }
 
 .footer__container {
-  display: flex;
-  align-items: baseline;
+  text-align: center;
 }
 
 .footer__item {
@@ -914,7 +931,7 @@ img {
 }
 
 .footer__item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .footer__site {
@@ -931,11 +948,37 @@ img {
 }
 
 .footer__address {
-  margin-right: 70px;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .footer__address {
+    margin: auto;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    display: flex;
+    align-items: baseline;
+    text-align: left;
+  }
+  .footer__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .footer__address {
+    margin-right: 70px;
+  }
 }
 
 .footer__form {
-  width: 570px;
+  width: 450px;
 }
 
 .footer__form--title {
@@ -949,14 +992,9 @@ img {
   color: var(--primary-bg-color);
 }
 
-.footer__form--label {
-  display: flex;
-  align-items: center;
-}
-
 .footer__form--input {
   padding: 15px 16px;
-  width: 358px;
+  width: 458px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -976,7 +1014,7 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
-  margin-left: 12px;
+  margin: auto;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -996,6 +1034,29 @@ img {
 .footer__form--icon {
   fill: var(--primary-bg-color);
   margin: auto;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer__form {
+    margin: auto;
+  }
+  .footer__form--input {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__form {
+    width: 570px;
+  }
+  .footer__form--label {
+    display: flex;
+    align-items: center;
+  }
+  .footer__form--input {
+    width: 358px;
+    margin-right: 12px;
+  }
 }
 
 .offers {
