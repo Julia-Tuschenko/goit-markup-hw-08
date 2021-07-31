@@ -1,5 +1,5 @@
 .quality{
-    padding-top: 60px;
+    @include padding (60px, 60px);
 
     &__list{
     font-weight: 400;
@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 1200px){
     .quality{
-        padding-top: 94px;
+        @include padding (94px, 0);
 
         &__list{
             display: flex;
