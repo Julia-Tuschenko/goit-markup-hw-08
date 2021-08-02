@@ -1,6 +1,6 @@
 .logo{
     font-family: var(--secondary-font);
-    @include fond (700, 26px, 1.19);
+    @include fond (700, 24px, 1.17);
     letter-spacing: 0.03em;
 
     color: #000000;
@@ -27,6 +27,7 @@
 
 @media screen and (min-width:1200px){
     .logo--header{
+        @include fond (700, 26px, 1.19);
         margin-right: 93px;
     }
 }
