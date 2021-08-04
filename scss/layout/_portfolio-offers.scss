@@ -1,6 +1,6 @@
 .offers{
-    margin-top: 60px;
-    margin-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     
     &__list{
         display: flex;
@@ -25,7 +25,7 @@
 
 @media screen and (min-width:768px){
     .offers{
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
 
          &__list{
             justify-content: center;

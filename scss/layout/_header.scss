@@ -20,6 +20,7 @@
 .header{
     padding-top: 16px;
     padding-bottom: 16px;
+    
 
     &-container{
         display: flex;
@@ -38,6 +39,7 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--primary-bg-color);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     & {
         opacity: 0;
@@ -53,8 +55,11 @@
     
     &__container{
         position: relative;
-        min-height: 200px;
-        padding: 48px 40px;
+        padding: 48px 25px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
     &__close-btn{
@@ -86,7 +91,6 @@
 
 
 .nav-list{
-    margin-bottom: 302px;
 
     &__item:not(:last-child) {
         margin-bottom: 32px;
@@ -107,7 +111,9 @@
     }
 }
 
+// .mobile-menu__modal{
 
+// }
 
 .communication__list{
     margin-bottom: 64px;

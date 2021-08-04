@@ -42,17 +42,14 @@
     }
 }
 
-@media screen and (min-width: 768px)and (max-width: 1199px) {
-    .quality{
-        display: none;
+@media screen and (max-width: 767px){
+    .quality__list--item:not(:last-child){
+        margin-bottom: 30px;
     }
 }
 
-
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 768px)and (max-width: 1199px) {
     .quality{
-        @include padding (94px, 0);
-
         &__list{
             display: flex;
             flex-wrap: wrap;
@@ -62,13 +59,23 @@
             &--item {
             margin-top:  30px;
             margin-left: 30px;
-            width: 270px;        
+            width: 354px;        
             }
 
             &--title{
             @include fond;
             }
 
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .quality{
+        @include padding (94px, 0);       
+        &__list--item {
+        width: 270px;        
         }
     }
 

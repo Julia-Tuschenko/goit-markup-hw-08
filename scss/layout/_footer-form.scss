@@ -1,6 +1,7 @@
 
 .footer__form{
     width: 450px;
+    
 
     &--title{
         margin-bottom: 20px;
@@ -65,7 +66,7 @@
 
 @media screen and (max-width: 1199px){
     .footer__form{
-        margin: auto;
+        // margin: auto;
     }
 
     .footer__form--input{

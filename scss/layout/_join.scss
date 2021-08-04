@@ -1,6 +1,6 @@
 
 .join{ 
-    width: 206px;
+    // width: 206px;
     margin-bottom: 60px;
 
     &__title{
@@ -14,12 +14,14 @@
 
     &__list{
         display: flex;
-        justify-content: space-between;
-    
-        &:not(:last-child){
-            margin-right: 10px;
-        }
+        justify-content: center;
     }
+
+    &__item:not(:last-child){
+        margin-right: 10px;
+    }
+       
+    
 
     &__icon{
         width: 20px;
@@ -53,12 +55,12 @@
     }
 }
 
-@media screen and (max-width: 1199px){
-    .join{
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
+// @media screen and (max-width: 1199px){
+//     .join{
+//         margin-right: auto;
+//         margin-left: auto;
+//     }
+// }
 
 @media screen and (min-width: 1200px){
     .join{
