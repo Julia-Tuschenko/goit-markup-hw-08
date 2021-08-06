@@ -1,9 +1,8 @@
 .offers{
-    padding-top: 60px;
-    padding-bottom: 40px;
     
     &__list{
         display: flex;
+        margin-bottom: 40px;
         
     }
 
@@ -23,20 +22,16 @@
 }
     
 
-@media screen and (min-width:768px){
-    .offers{
-        // margin-bottom: 30px;
-
-         &__list{
-            justify-content: center;
-        }
-    }
+@media screen and (min-width:768px){    
+    .offers__list{
+        margin-bottom: 30px;
+        justify-content: center;
+    }    
 }
 
 
 @media screen and (min-width:1200px){
-    .offers{
-    margin-top: 94px;
+    .offers__list{
     margin-bottom: 50px;
     }
 }
